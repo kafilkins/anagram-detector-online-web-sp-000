@@ -10,5 +10,6 @@ def match(words)
   words.each do |w|
     w.split.sort == word.split.sort
   end
+end
 
 end
