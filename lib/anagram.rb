@@ -6,8 +6,9 @@ def initialize(word)
   @word = word
 end
 
-def match
-  @word == @word
+def match(words)
+  words.each do |w|
+    w.split.sort == word.split.sort
   end
 
 end
